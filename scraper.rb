@@ -9,7 +9,7 @@ require 'wikidata/fetcher'
 require 'mediawiki_api'
 
 def members
-  morph_api_url = 'https://api.morph.io/tmtmtmtm/saint-kitts-and-nevis-elections-wikipedia/data.json'
+  morph_api_url = 'https://api.morph.io/tmtmtmtm/jamaica-representatives-wikipedia/data.json'
   morph_api_key = ENV["MORPH_API_KEY"]
   result = RestClient.get morph_api_url, params: {
     key: morph_api_key,
